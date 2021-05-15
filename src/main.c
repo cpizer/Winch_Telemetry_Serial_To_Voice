@@ -15,6 +15,6 @@ int main(void)
     v = register_cmu_us_awb(NULL);
     //v = flite_voice_select("awb");
 
-    flite_text_to_speech("This is a test of the flite c-library", v, "play");
+    flite_text_to_speech("This is a test of the flite c-library again", v, "play");
 
 }
